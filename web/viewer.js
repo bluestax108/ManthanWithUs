@@ -1869,9 +1869,9 @@ const PDFViewerApplication = {
 
     eventBus._on("hashchange", webViewerHashchange);
 
-    eventBus._on("beforeprint", _boundEvents.beforePrint);
+    //eventBus._on("beforeprint", _boundEvents.beforePrint);
 
-    eventBus._on("afterprint", _boundEvents.afterPrint);
+    //eventBus._on("afterprint", _boundEvents.afterPrint);
 
     eventBus._on("pagerendered", webViewerPageRendered);
 
@@ -1893,9 +1893,9 @@ const PDFViewerApplication = {
 
     eventBus._on("presentationmode", webViewerPresentationMode);
 
-    eventBus._on("print", webViewerPrint);
+    //eventBus._on("print", webViewerPrint);
 
-    eventBus._on("download", webViewerDownload);
+    //eventBus._on("download", webViewerDownload);
 
     eventBus._on("save", webViewerSave);
 
@@ -1931,7 +1931,7 @@ const PDFViewerApplication = {
 
     eventBus._on("spreadmodechanged", webViewerSpreadModeChanged);
 
-    eventBus._on("documentproperties", webViewerDocumentProperties);
+   // eventBus._on("documentproperties", webViewerDocumentProperties);
 
     eventBus._on("findfromurlhash", webViewerFindFromUrlHash);
 
@@ -1949,7 +1949,7 @@ const PDFViewerApplication = {
 
     eventBus._on("fileinputchange", webViewerFileInputChange);
 
-    eventBus._on("openfile", webViewerOpenFile);
+    //eventBus._on("openfile", webViewerOpenFile);
   },
 
   bindWindowEvents() {
@@ -2040,7 +2040,7 @@ const PDFViewerApplication = {
 
     eventBus._off("presentationmode", webViewerPresentationMode);
 
-    eventBus._off("print", webViewerPrint);
+    //eventBus._off("print", webViewerPrint);
 
     eventBus._off("download", webViewerDownload);
 
