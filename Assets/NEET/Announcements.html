@@ -11,6 +11,33 @@
   <!-- Bootstrap -->
   <link href="../../css/bootstrap-4.4.1.css" rel="stylesheet">
 </head>
+<style>
+  span.anim {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    0 % { background: red;}
+    25 % {background: blue;}
+    50 % {background: red;}
+    75 % {background: blue;}
+    100 % {background: red;}
+  }
+</style>
 
 <body style="background: linear-gradient(90deg, #fff7e6 0%, #e9fbfb 100%);">
   <div id="nav-placeholder">
@@ -45,7 +72,8 @@
 
               <div class="container" style="overflow: auto">
                 <a class="btn btn-primary btn-sm text-center my-2 my-sm-0"
-                  href="https://mcc.nic.in/WebinfoUG/Page/Page?PageId=1&LangId=P" style="border-radius: 7px" target="_blank">Official
+                  href="https://mcc.nic.in/WebinfoUG/Page/Page?PageId=1&LangId=P" style="border-radius: 7px"
+                  target="_blank">Official
                   website</a>
                 <span style="float: right" class="">Keep visiting the official website regularly.</span>
               </div><br>
@@ -101,6 +129,13 @@
                   <span class="badge badge-warning badge-pill">2021</span>
                   <span class="badge badge-primary badge-pill"></span>
                   Result Release</a><br>
+
+                <a class="card-link" href="Announcement/2021Announce/8_JoiningR1.html">
+                  <span class="badge badge-white badge-pill">02-02-2022</span>
+                  <span class="badge badge-dark badge-pill">Round-1</span>
+                  <span class="badge badge-warning badge-pill">2021</span>
+                  <span class="anim" style="">Joining</span>
+                  Joining Letter</a><br>
               </div>
               </p>
             </div>
@@ -177,7 +212,7 @@
           </div>
         </div>
 
-        
+
         <div class="col-lg-6" style="padding: 10px" id="MBBSseat">
           <div class="card shadow text-left  h-100"
             style="border-radius: 10px;background: linear-gradient(90deg, #e8f8fc 0%, #e6e8ff 100%);">
