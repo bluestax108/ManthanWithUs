@@ -12,30 +12,32 @@
   <link href="../../css/bootstrap-4.4.1.css" rel="stylesheet">
 </head>
 <style>
-  span.anim {
-    display: inline-block;
-    padding: 0.25em 0.4em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    
-    padding-right: 0.6em;
-    padding-left: 0.6em;
-    border-radius: 10rem;
+  .anim {
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
   }
 
   @keyframes example {
-    0 % { background: red;}
-    25 % {background: blue;}
-    50 % {background: red;}
-    75 % {background: blue;}
-    100 % {background: red;}
+    0% {
+      background: red;
+    }
+
+    25% {
+      background: blue;
+    }
+
+    50% {
+      background: red;
+    }
+
+    75% {
+      background: blue;
+    }
+
+    100% {
+      background: red;
+    }
   }
 </style>
 
@@ -134,8 +136,9 @@
                   <span class="badge badge-white badge-pill">02-02-2022</span>
                   <span class="badge badge-dark badge-pill">Round-1</span>
                   <span class="badge badge-warning badge-pill">2021</span>
-                  <span class="anim" style="">Joining</span>
-                  Joining Letter</a><br>
+                  <span class="badge badge-pill anim" style="color: white;">Joining</span>
+                  Joining Letter
+                </a><br>
               </div>
               </p>
             </div>
